@@ -146,6 +146,15 @@ $ taxy start
 
 Once the server is running, you can access the admin panel at [http://localhost:46492/](http://localhost:46492/).
 
+## Documentation
+
+For more detailed information about how Taxy works:
+
+- **[Request Processing Pipeline](docs/content/request-processing.md)** - Learn about the stages requests go through before reaching the origin server, including TLS termination, routing, header manipulation, and security checks.
+- **[Configuration](https://taxy.dev/configuration)** - Full configuration guide for ports, proxies, and certificates.
+
+Visit [taxy.dev](https://taxy.dev) for complete documentation.
+
 ## Development
 
 To contribute or develop Taxy, follow these steps:
